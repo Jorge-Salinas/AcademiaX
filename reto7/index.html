@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reto 7</title>
+  </head>
+  <body>
+    <h1>Formularios en HTML</h1>
+<form action="#" method="post">
+    <h2>Datos Personales</h2>
+    <label
+      >Nombre:
+      <input type="text" name="text" required/> </label
+    ><br />
+    <label
+      >Correo Electronico:
+      <input type="email" name="email" required /> </label
+    ><br />
+    <label
+      >Telefono:
+      <input type="tel" name="telefono" />
+    </label>
+    <h2>Genero</h2>
+    <fieldset>
+        <legend>Genero</legend>
+        <label><input type="radio" name="genero" >Masculino</label><br>
+        <label><input type="radio" name="genero" >Femenino</label><br>
+        <label><input type="radio" name="genero">otro</label>
+    </fieldset>
+    <h2>Preferencias</h2>
+    <fieldset>
+        <legend>Preferencias</legend>
+        <label><input type="checkbox" name="Preferencias">Musica</label><br>
+        <label> <input type="checkbox" name="Preferencias">Deportes</label><br>
+        <label><input type="checkbox" name="Preferencias">Preferencias</label>
+    </fieldset>
+    <h2>Comentarios</h2>
+    <textarea name="Comentarios" cols="60" rows="5"></textarea><br>
+    <input type="submit" value="enviar">
+</form>
+  </body>
+</html>
